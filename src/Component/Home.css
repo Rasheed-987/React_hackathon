@@ -1,0 +1,100 @@
+.task-board {
+  display: flex;
+  display: flex;
+  margin-top: 20px;
+}
+
+.task-section {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.task-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.task-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-section li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.task-input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.task-input input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  color: black;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color:white;
+}
+
+.task-input select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+}
+
+.task-input button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.task1{
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.task2{
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task3{
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
+
+.select{
+  width: auto;
+}
+#todo{
+  background-color: rgb(25, 0, 255);
+}
+#inprogress{
+  background-color: green;
+}
+#completed{
+  background-color: red;
+}
